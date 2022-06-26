@@ -43,12 +43,12 @@ console.log(result2);
 // What?! You both have the same name?
 
     if (hacker1.localeCompare(hacker2)<0) {
-    console.log("The driver's name goes first")
+        console.log("The driver's name goes first")
     } 
     else if (hacker1.localeCompare(hacker2)>0) {
-      console.log("Yo, the navigator goes first definitely")
+        console.log("Yo, the navigator goes first definitely")
     }
     else {
-      console.log("What?! You both got the same name?")
+        console.log("What?! You both got the same name?")
     }
   
